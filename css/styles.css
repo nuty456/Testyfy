@@ -412,14 +412,29 @@ a {
     position: relative;
     bottom: 10px;
 }
+
 @media screen and (min-width: 1024px) {
     .quote {
         font-size: 2rem;
     }
+
     .qoute__author {
         font-size: 2.4rem;
     }
+
     .quote__org {
         font-size: 1.6rem;
     }
+}
+
+/* Grids */
+.grid {
+    display: grid;
+}
+
+@media screen and (min-width: 768px) {
+    .grid--1x2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
