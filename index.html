@@ -18,7 +18,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"
           data-noprefix>
 
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -27,7 +26,7 @@
 
 <header>
     <nav class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="images/logo.svg" alt="logo"></a>
+        <a aria-label="Testyfy" class="nav__brand" href="/"><img src="images/logo.svg" alt="logo"></a>
         <svg class="icon icon--white nav__toggler">
             <use href="images/sprite.svg#menu"></use>
         </svg>
@@ -62,7 +61,7 @@
             Ex.</p>
     </header>
     <div class="input-group">
-        <input type="text" class="input" placeholder="Enter domain name here...">
+        <input aria-label="Domain" type="text" class="input" placeholder="Enter domain name here...">
         <button class="btn btn--accent">
             <svg class="icon icon--white">
                 <use href="images/sprite.svg#search"></use>
